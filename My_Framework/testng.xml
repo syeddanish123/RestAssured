@@ -1,0 +1,10 @@
+<suite name="MytestNG_framwork">
+	<test name="mytest">
+		<classes>
+			<class name="com.hrms.testscripts.TC001_login_logout" />
+			<class name="com.hrms.testscripts.TC002_Add_New_employee" />
+			<class name="com.hrms.testscripts.TC003_EditEmployee" />
+			<class name="com.hrms.testscripts.TC004_Delete_Emp" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MytestNG_framwork]">
+  <test name="mytest(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC003_EditEmployee">
+        <methods>
+          <include name="Tc003"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC003_EditEmployee -->
+      <class name="com.hrms.testscripts.TC004_Delete_Emp">
+        <methods>
+          <include name="Tc004"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC004_Delete_Emp -->
+      <class name="com.hrms.testscripts.TC001_login_logout">
+        <methods>
+          <include name="Tc001"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC001_login_logout -->
+      <class name="com.hrms.testscripts.TC002_Add_New_employee">
+        <methods>
+          <include name="Tc002"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC002_Add_New_employee -->
+    </classes>
+  </test> <!-- mytest(failed) -->
+</suite> <!-- Failed suite [MytestNG_framwork] -->
